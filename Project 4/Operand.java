@@ -9,7 +9,19 @@
 // http://www.devlang.com
 //**************************************************************************************************************
 
-/**
- * An operand is a numeric value represented as a Double.
- */
-???
+/** * An operand is a numeric value represented as a Double. */
+public class Operand extends Token {
+    private Double mValue;
+
+    public Operand(Double pValue) {
+        setValue(pValue);
+    }
+
+    public Double getValue() {
+        return mValue;
+    }
+
+    public void setValue(Double pValue) {
+        mValue = pValue;
+    }
+}
