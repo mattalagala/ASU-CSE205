@@ -1,13 +1,11 @@
-//**************************************************************************************************************
-// CLASS: AddOperator
+//*********************************************************************************************
+// CLASS: AddOperator (AddOperator.java)
 //
-// AUTHOR
-// Kevin R. Burger (burgerk@asu.edu)
-// Computer Science & Engineering Program
-// Fulton Schools of Engineering
-// Arizona State University, Tempe, AZ 85287-8809
-// http://www.devlang.com
-//**************************************************************************************************************
+// CSE205 Object Oriented Programming and Data Structures, Summmer B 2020
+// Project Number: 4
+//
+// AUTHOR: Matthew Alagala, malagala, malagala@asu.edu
+//*********************************************************************************************
 
 /**
  * Represents the addition operator which is a specific type of binary operator.
@@ -18,7 +16,8 @@ public class AddOperator extends BinaryOperator {
     }
 
     /**
-     * Returns the sum of the left-hand side operand and the right-hand side operand.
+     * Returns the sum of the left-hand side operand and the right-hand side
+     * operand.
      */
     @Override
     public Operand evaluate(Operand pLhsOperand, Operand pRhsOperand) {
@@ -34,7 +33,8 @@ public class AddOperator extends BinaryOperator {
     }
 
     /**
-     * Returns the precedence level of this operator when on it is on the operator stack.
+     * Returns the precedence level of this operator when on it is on the operator
+     * stack.
      */
     @Override
     public int stackPrecedence() {

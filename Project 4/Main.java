@@ -1,13 +1,12 @@
-//***************************************************************************************************************************
-// CLASS: Main
+
+//*********************************************************************************************
+// CLASS: Main (Main.java)
 //
-// AUTHOR
-// Kevin R. Burger (burgerk@asu.edu)
-// Computer Science & Engineering Program
-// Fulton Schools of Engineering
-// Arizona State University, Tempe, AZ 85287-8809
-// Web: http://www.devlang.com
-//***************************************************************************************************************************
+// CSE205 Object Oriented Programming and Data Structures, Summmer B 2020
+// Project Number: 4
+//
+// AUTHOR: Matthew Alagala, malagala, malagala@asu.edu
+//*********************************************************************************************
 import javax.swing.JFrame;
 
 /**
@@ -19,14 +18,16 @@ public class Main {
     private View mView;
 
     /**
-     * This is where execution starts. Instantiate a Main object and then call run().
+     * This is where execution starts. Instantiate a Main object and then call
+     * run().
      */
     public static void main(String[] args) {
         new Main().run();
     }
 
     /**
-     * exit() is called when the Exit button in the View is clicked. Call System.exit(0).
+     * exit() is called when the Exit button in the View is clicked. Call
+     * System.exit(0).
      */
     public void exit() {
         System.exit(0);

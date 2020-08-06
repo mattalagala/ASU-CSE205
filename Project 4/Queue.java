@@ -1,17 +1,15 @@
-//**************************************************************************************************
-// CLASS: Queue<E> (Queue.java)
+//*********************************************************************************************
+// CLASS: Queue (Queue.java)
 //
-// AUTHOR
-// Kevin R. Burger (burgerk@asu.edu)
-// Computer Science & Engineering Program
-// Fulton Schools of Engineering
-// Arizona State University, Tempe, AZ 85287-8809
+// CSE205 Object Oriented Programming and Data Structures, Summmer B 2020
+// Project Number: 4
 //
-// (c) 2018 Kevin R Burger
-//**************************************************************************************************
+// AUTHOR: Matthew Alagala, malagala, malagala@asu.edu
+//*********************************************************************************************
 
 /**
- * Implements a generic queue data structure using a DList to store the elements.
+ * Implements a generic queue data structure using a DList to store the
+ * elements.
  */
 public class Queue<E> {
 
@@ -25,7 +23,8 @@ public class Queue<E> {
     }
 
     /**
-     * Removes all of the elements from this Queue. After clear() returns this Queue is empty.
+     * Removes all of the elements from this Queue. After clear() returns this Queue
+     * is empty.
      */
     public void clear() {
         getList().clear();
@@ -75,8 +74,8 @@ public class Queue<E> {
     }
 
     /**
-     * Overrides toString() inherited from Object. Returns a String representation of the elements
-     * of this Queue by calling the DList.toString() method.
+     * Overrides toString() inherited from Object. Returns a String representation
+     * of the elements of this Queue by calling the DList.toString() method.
      */
     @Override
     public String toString() {

@@ -1,13 +1,11 @@
-//**************************************************************************************************************
-// CLASS: UnaryOperator
+//*********************************************************************************************
+// CLASS: UnaryOperator (UnaryOperator.java)
 //
-// AUTHOR
-// Kevin R. Burger (burgerk@asu.edu)
-// Computer Science & Engineering Program
-// Fulton Schools of Engineering
-// Arizona State University, Tempe, AZ 85287-8809
-// http://www.devlang.com
-//**************************************************************************************************************
+// CSE205 Object Oriented Programming and Data Structures, Summmer B 2020
+// Project Number: 4
+//
+// AUTHOR: Matthew Alagala, malagala, malagala@asu.edu
+//*********************************************************************************************
 
 /**
  * UnaryOperator is the superclass of all unary operators.
@@ -16,7 +14,7 @@ public abstract class UnaryOperator extends Operator {
 
     public UnaryOperator() {
     }
-    
+
     /**
      * Called to evaluate the operator.
      */

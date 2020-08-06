@@ -1,13 +1,11 @@
-//**************************************************************************************************************
-// CLASS: LeftParen
+//*********************************************************************************************
+// CLASS: LeftParen (LeftParen.java)
 //
-// AUTHOR
-// Kevin R. Burger (burgerk@asu.edu)
-// Computer Science & Engineering Program
-// Fulton Schools of Engineering
-// Arizona State University, Tempe, AZ 85287-8809
-// http://www.devlang.com
-//**************************************************************************************************************
+// CSE205 Object Oriented Programming and Data Structures, Summmer B 2020
+// Project Number: 4
+//
+// AUTHOR: Matthew Alagala, malagala, malagala@asu.edu
+//*********************************************************************************************
 
 /**
  * Represents a left parenthesis in the expression.
@@ -26,7 +24,8 @@ public class LeftParen extends Parenthesis {
     }
 
     /**
-     * Returns the precedence level of LeftParen when on it is on the operator stack, it is lowest at 0.
+     * Returns the precedence level of LeftParen when on it is on the operator
+     * stack, it is lowest at 0.
      */
     @Override
     public int stackPrecedence() {

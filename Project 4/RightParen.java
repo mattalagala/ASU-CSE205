@@ -1,13 +1,11 @@
-//**************************************************************************************************************
-// CLASS: RightParen
+//*********************************************************************************************
+// CLASS: RightParen (RightParen.java)
 //
-// AUTHOR
-// Kevin R. Burger (burgerk@asu.edu)
-// Computer Science & Engineering Program
-// Fulton Schools of Engineering
-// Arizona State University, Tempe, AZ 85287-8809
-// http://www.devlang.com
-//**************************************************************************************************************
+// CSE205 Object Oriented Programming and Data Structures, Summmer B 2020
+// Project Number: 4
+//
+// AUTHOR: Matthew Alagala, malagala, malagala@asu.edu
+//*********************************************************************************************
 
 /**
  * Represents a right parenthesis in the expression.
@@ -18,8 +16,9 @@ public class RightParen extends Parenthesis {
     }
 
     /**
-     * Right parentheses really don't have precedence since they are not pushed on the operator stack, but we
-     * have to override precedence() so we assign the lowest precedence level to RightParen.
+     * Right parentheses really don't have precedence since they are not pushed on
+     * the operator stack, but we have to override precedence() so we assign the
+     * lowest precedence level to RightParen.
      */
     @Override
     public int precedence() {

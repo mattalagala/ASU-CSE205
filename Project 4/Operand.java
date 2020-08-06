@@ -1,13 +1,11 @@
-//**************************************************************************************************************
-// CLASS: Operand
+//*********************************************************************************************
+// CLASS: Operand (Operand.java)
 //
-// AUTHOR
-// Kevin R. Burger (burgerk@asu.edu)
-// Computer Science & Engineering Program
-// Fulton Schools of Engineering
-// Arizona State University, Tempe, AZ 85287-8809
-// http://www.devlang.com
-//**************************************************************************************************************
+// CSE205 Object Oriented Programming and Data Structures, Summmer B 2020
+// Project Number: 4
+//
+// AUTHOR: Matthew Alagala, malagala, malagala@asu.edu
+//*********************************************************************************************
 
 /** * An operand is a numeric value represented as a Double. */
 public class Operand extends Token {
